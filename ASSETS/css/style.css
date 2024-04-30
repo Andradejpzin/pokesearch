@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cartasContainer{
+    flex-wrap: wrap;
+    justify-content: center;
+    display:flex
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text]{
+    display:flex;
+    justify-content: center;  
+    width: 90%; 
+    height: 35px; 
+    align-items: center;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 164);
+    outline: none;
+    border: 3px solid black;
+
+}
+
+button{
+    border-radius: 10px;
+    width: 90%;
+    height:30px;
+    align-items: center;
+    margin-left: 5%;
+    background-color: rgb(245, 176, 176);
+    border: 3px solid black;
+}
+body{
+    background-color: rgb(205, 255, 255);
+}
+
+img{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+@media(max-width: 768px){
+    #imagem{
+        display: none   ;
+    }
+}
